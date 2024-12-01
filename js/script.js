@@ -66,16 +66,4 @@ function page3Animation() {
   });
 
 
-  document.querySelectorAll('.scroll-link').forEach(link => {
-    link.addEventListener('click', (e) => {
-      e.preventDefault();
-      const target = document.querySelector(e.target.getAttribute('href'));
-      gsap.to(window, {
-        scrollTo: target,
-        duration: 1,
-        ease: "power2.out"
-      });
-    });
-  });
-
   page3Animation()
