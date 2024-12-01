@@ -1,0 +1,50 @@
+body,html{
+  
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+.btn-shine {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 12px 48px;
+    color: #ffffff;
+    background: linear-gradient(to right, #4d4d4d 0%, white 10%, #4d4d4d 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    20% {
+      background-position: 180px;
+    }
+    40%{
+        background-position: 320px;
+    }
+    60% {
+        background-position: 480px;
+      }
+      80% {
+        background-position: 600px;
+      }
+    100% {
+      background-position: 560px;
+    }
+  }
+  
