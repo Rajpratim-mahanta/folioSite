@@ -1,15 +1,4 @@
-function page3Animation() {
-    gsap.to(".slide", {
-      scrollTrigger: {
-        trigger: ".page3",
-        start: "top top",
-        end: "bottom bottom",
-        scrub: 1,
-      },
-      xPercent: -200,
-      ease: Power4,
-    })
-  }
+
  // Floating hover and cursor movement effect
  const circle = document.getElementById("about-circle");
 
@@ -66,4 +55,5 @@ function page3Animation() {
   });
 
 
-  page3Animation()
+
+  
